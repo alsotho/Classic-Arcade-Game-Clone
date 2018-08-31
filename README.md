@@ -11,4 +11,10 @@ How to Play:
 Link to play: https://alsotho.github.io/Classic-Arcade-Game-Clone/
 
 Instructions:
-In this game you have a Player and Enemies (Sharks). The goal of the player is to reach the water, without colliding into any one of the enemies. The player can move left, right, up and down. The enemies move in varying speeds on the paved block portion of the scene. Once a the player collides with an enemy, the game is reset and the player moves back to the start square. Once the player reaches the water the game is won. Randomly on the screen shows gems that Player should collect. After collected all three gems Enemies speed is raising, number of gems is resetting. Player has 3 lives and the game is over after Player loose the last one.
+In this game you have a Player and Enemies (Bugs). The goal of the player is to reach the other side, without colliding into any one of the enemies. The player can move left, right, up and down. The enemies move in varying speeds on the paved block portion of the scene. Once a the player collides with an enemy, the game is reset and the player moves back to the start square. Once the player reaches the other side the game is won.
+
+Resources:
+===============================
+Background Image: Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/)
+
+Font: Google Fonts (https://fonts.google.com/)
