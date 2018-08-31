@@ -26,7 +26,6 @@ body {
 
 }
 
-
 header h1 {
     width: 100%;
     font-size: 4em;
@@ -39,16 +38,6 @@ header h1 {
     animation: rainbowText 17s infinite;
 }
 
-.container {
-    width: 65%;
-    margin: auto;
-    position: center;
-    box-sizing: border-box;
-    display: flex;
-    padding-top: 20px;
-    padding-left: 5px;
-
-}
 
 /* Styles for header text*/
 @-webkit-keyframes rainbowText {
