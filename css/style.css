@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    background: #ffffff url('../images/gplaypattern.png'); /* Background pattern from Subtle Patterns */
+
+}
+
+
+header h1 {
+    width: 100%;
+    font-size: 4em;
+    color: #00267d;
+    margin-top: 20px;
+    position: center;
+    top: 0;
+    left: 25%;
+    -webkit-animation: rainbowText 17s infinite;
+    animation: rainbowText 17s infinite;
+}
+
+.container {
+    width: 65%;
+    margin: auto;
+    position: center;
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 5px;
+
+}
+
+/* Styles for header text*/
+@-webkit-keyframes rainbowText {
+  0%{
+    color: #000000; }
+  20%{
+    color: #00ffff;  }
+  40%{
+    color: #ffff00;  }
+  60%{
+    color: #ff0000;  }
+  80%{
+    color: #ff00ff;  }
+  100%{
+    color: #ffffff;  }
+  }
+}
+
+@keyframes rainbowText {
+  0%{
+    color: #000000;  }
+  20%{
+    color: #00ffff;  }
+  40%{
+    color: #ffff00;  }
+  60%{
+    color: #ff0000;  }
+  80%{
+    color: #ff00ff;  }
+  100%{
+    color: #ffffff;  }
+  }
+}
